@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "IBCR",
+  "version": "0.0.1",
+  "description": "Declutter InterviewBit Experience",
+  "icons":{
+        "128":"logo.png"
+  },
+  "content_scripts": [
+    {
+        "matches": [
+        "http://*.interviewbit.com/*","https://*.interviewbit.com/*"],
+        "js": ["main.js"],
+        "run_at": "document_end",
+        "all_frames": true
+    }
+  ]
+
+}
