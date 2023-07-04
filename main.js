@@ -118,6 +118,16 @@ function emove(){
       {
         //Skip if "pagelet_ego_pane_w" div tag isn't on this page
       }
+      try
+      {
+         x = document.getElementsByClassName('ib-scaler-hub__header');
+        //  x[0].innerHTML = '';
+         x[0].remove();
+      }
+    catch(err)
+      {
+        //Skip if "pagelet_ego_pane_w" div tag isn't on this page
+      }
     console.log('Decluttered');
     setTimeout(function(){emove();},1000);
     }

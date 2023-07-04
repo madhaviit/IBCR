@@ -6,6 +6,9 @@
   "icons":{
         "128":"logo.png"
   },
+  "action":{
+      "default_popup":"index.html"
+  },
   "content_scripts": [
     {
         "matches": [
