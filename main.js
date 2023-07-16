@@ -1,7 +1,7 @@
 function emove(){
-    try
+  try
       {
-         x = document.getElementsByClassName('ib-rolling-ribbon');
+         x = document.getElementsByClassName('ib-rolling-ribbon__content');
         //  x[0].innerHTML = '';
          x[0].remove();
       }
@@ -9,6 +9,16 @@ function emove(){
       {
         //Skip if "pagelet_ego_pane_w" div tag isn't on this page
       }
+    // try
+    //   {
+    //      x = document.getElementsByClassName('ib-rolling-ribbon');
+    //     //  x[0].innerHTML = '';
+    //      x[0].remove();
+    //   }
+    // catch(err)
+    //   {
+    //     //Skip if "pagelet_ego_pane_w" div tag isn't on this page
+    //   }
       try
       {
          m = document.getElementsByClassName('jumbotron mcq-banner expert-redirect  ');
@@ -111,6 +121,26 @@ function emove(){
       try
       {
          x = document.getElementsByClassName('alert alert-warning alert-dismissible');
+        //  x[0].innerHTML = '';
+         x[0].remove();
+      }
+    catch(err)
+      {
+        //Skip if "pagelet_ego_pane_w" div tag isn't on this page
+      }
+      try
+      {
+         x = document.getElementsByClassName('ib-scaler-hub__header');
+        //  x[0].innerHTML = '';
+         x[0].remove();
+      }
+    catch(err)
+      {
+        //Skip if "pagelet_ego_pane_w" div tag isn't on this page
+      }
+      try
+      {
+         x = document.getElementsByClassName('ib-scaler-hub__header');
         //  x[0].innerHTML = '';
          x[0].remove();
       }
